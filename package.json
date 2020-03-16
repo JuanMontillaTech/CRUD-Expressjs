@@ -1,0 +1,30 @@
+{
+  "name": "crud-expressjs",
+  "version": "1.0.0",
+  "description": "Api para manejar formularios automaticos",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanMontillaTech/CRUD-Expressjs.git"
+  },
+  "author": "Juan Montilla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanMontillaTech/CRUD-Expressjs/issues"
+  },
+  "homepage": "https://github.com/JuanMontillaTech/CRUD-Expressjs#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-myconnection": "^1.0.4",
+    "morgan": "^1.9.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
