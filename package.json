@@ -2,7 +2,7 @@
   "name": "crud-expressjs",
   "version": "1.0.0",
   "description": "Api para manejar formularios automaticos",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
     "dev": "nodemon src/app.js"
   },
